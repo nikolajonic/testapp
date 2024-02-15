@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nikolajonic.testapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4472ba82-e222-4a58-9748-789de52049d0"
+      }
+    },
+    "owner": "nikolajonic",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
